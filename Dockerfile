@@ -1,0 +1,6 @@
+FROM node:alpine
+WORKDIR /app
+COPY . .
+EXPOSE 8080
+ENTRYPOINT [ "node" ]
+CMD [ "./server.js" ]
