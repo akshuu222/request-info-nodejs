@@ -6,7 +6,7 @@ This tool is especially useful in **DevOps, networking, reverse-proxy, load bala
 
 ---
 
-## 🚀 Purpose
+## 🚀 Purpose.
 
 This server helps you:
 
