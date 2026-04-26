@@ -54,5 +54,5 @@ const server = http.createServer((req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log('Listening on http://localhost:8000');
+  console.log(`Server listening on Listening on http://localhost:${PORT}`);
 });
