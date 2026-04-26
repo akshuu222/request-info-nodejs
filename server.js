@@ -1,6 +1,7 @@
 const http = require('http');
 const { URL } = require('url');
 const os = require('os');
+const PORT = 8000 || process.env.PORT
 
 const server = http.createServer((req, res) => {
   // URL parsing (safe even without host header)
@@ -52,6 +53,6 @@ const server = http.createServer((req, res) => {
   res.end(JSON.stringify(requestDetails, null, 2));
 });
 
-server.listen(8000, () => {
-  console.log('Listening on http://localhost:8000');
+server.listen(PORT, () => {
+  console.log(`Server listening on Listening on http://localhost:${PORT}`);
 });
