@@ -1,6 +1,6 @@
 # Request Inspector HTTP Server
 
-A lightweight Node.js HTTP server that **captures, logs, and returns detailed client request information** in JSON format.
+A lightweight Node.js HTTP server that **captures, logs, and returns detailed client request information** in JSON format and returns as response.
 
 This tool is especially useful in **DevOps, networking, reverse-proxy, load balancer, and backend debugging** scenarios where you want to clearly understand *what exactly the client sent to your server*.
 
