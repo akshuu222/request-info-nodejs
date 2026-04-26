@@ -4,7 +4,7 @@ const os = require('os');
 
 const server = http.createServer((req, res) => {
   // URL parsing (safe even without host header)
-  const fullUrl = new URL(req.url, `http://${req.headers.host || 'localhost'}`);
+  const fullUrl = new URL(req.url, `http://${req.headers.host || 'localhost'}`)
 
   const requestDetails = {
     // ===== Core request line =====
